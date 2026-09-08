@@ -1,0 +1,23 @@
+{
+  "name": "node-app-deploy-gh-actions",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Samarth Jain",
+  "maintainers": [
+    "Samarth Jain"
+  ],
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "nodemon": "^3.1.14"
+  }
+}
